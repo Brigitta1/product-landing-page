@@ -101,6 +101,7 @@ textarea {
 
 /*!--------MOBILE FIRST STYLES ---------*/
 
+
 /*  Colors used 
 apple green for background and buttons #00cc7a
 main font color #
@@ -123,6 +124,7 @@ img {
 }
 
 a {
+  text-decoration: none;
   
 }
 
@@ -241,13 +243,14 @@ input {
 /* ------ Classes ------ */
 #classes {
   width: 100%;
-  height: 400px;
-  display: flex;
+  height: 800px;
+  display: grid;
   background-color: #fff;
-  padding-top: ;
+  padding-top: 7em;
 }
 .third-width {
   text-align: center;
+  padding-bottom: 2em;
 }
 
 #classes h1 {
@@ -255,9 +258,20 @@ input {
 }
 
 
+#demo, #locations {
+  padding-top: 7em;
+}
 
+#demo h1 {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
 
 /* ------- Footer ---------- */
+
+
+
 
 
 
@@ -359,9 +373,9 @@ input {
    ========================================================================== */
 
 @media only screen and (min-width: 600px) {
-/* -------- TABLET STYLES ------------- */
+/* ------------- TABLET STYLES ------------- */
     
-    /* ------ Header ------ */
+  /* ------ Header ------ */
   
   ul {
     padding-top: 3em;
@@ -370,8 +384,9 @@ input {
     display: inline;
     margin-left: 3.5em;
     
-    
   }
+  
+  
   
   
   /* ---- Promo page ----- */
@@ -382,20 +397,37 @@ input {
   #submit {
     width: 32%;
   }
+  
+  /* ------ Classes -------- */
+  #classes {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 200px 200px;
+    grid-gap: 2em;
+  }
+  
+  
+    
+    
+    
+    
+    
 }
 
 @media all and (min-width: 1000px) {
-    /*------------ DESKTOP STYLES ------------- */
-    
-  /* ------- Header -------- */
-    
+/*------------ DESKTOP STYLES ------------- */
+    /* ------- Header -------- */
   ul {
     padding-left: 8em;
   }
-    
   ul li {
     padding-left: 6em;
   }
+  
+  
+  
+}
   
   
   
