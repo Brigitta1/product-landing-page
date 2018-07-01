@@ -99,6 +99,169 @@ textarea {
 
 
 
+/*!--------MOBILE FIRST STYLES ---------*/
+
+/*  Colors used 
+apple green for background and buttons #00cc7a
+main font color #
+
+--------- */
+
+
+/*------- General styles --------*/
+
+html, body {
+  width: 100%;
+  height: auto;
+  background-color: #00cc7a;
+  font-size: 16px;
+  font-family:'Raleway', sans-serif;
+}
+
+img {
+  border-radius: 5px;
+}
+
+a {
+  
+}
+
+h1 {
+  font-size: 2em;
+  color: #00331f;
+}
+
+h2 {
+  
+  
+}
+
+p {
+  
+}
+
+/*------ Header -------- */
+#header {
+  width: 100%;
+  height: 60px;
+  
+}
+
+#fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: #00cc7a;
+  width: 100%;
+  margin-left: -8px;
+}
+#img-container {
+  padding-left: 1em;
+  float: left;
+}
+
+#nav-bar {
+  float: left;
+  margin-left: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+} 
+
+ul li {
+  padding-bottom: 1.2em;;
+  padding-top: 6px;
+  margin-left: 1.5em;
+  
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+
+/*------- Main content --------- */
+
+/* ---------Promo page ----------- */
+main {
+  margin-left: -10px;
+}
+#promo {
+  width: 100%;
+  height: 400px;
+  padding-top: 1.5em;
+  background: url(https://user-images.githubusercontent.com/26505095/42133625-2676d542-7d25-11e8-8d6a-71d2ba06f527.jpeg);
+  background-position: center;
+}
+
+#promo-head {
+  padding-top: 2em;
+  text-align: center;
+  line-height: 1.7em;
+  font-size: 1.5em;
+ }
+
+#form {
+  text-align: center;
+  padding-top: 1em;
+  }
+ 
+input {
+  width: 50%;
+  padding: 0.6em;
+}
+
+.button-container {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#submit {
+  text-transform: uppercase;
+  width: 55%;
+  border-radius: 5px;
+  padding: 0.6em;
+  background: rgba(0,204,122,0.8);
+  color: #fff;
+}
+
+#submit:hover {
+  background: rgba(0,204,122);
+  color:;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+/* ------ Classes ------ */
+#classes {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-color: #fff;
+  padding-top: ;
+}
+.third-width {
+  text-align: center;
+}
+
+#classes h1 {
+  font-size: 1.2em;
+}
+
+
+
+
+/* ------- Footer ---------- */
+
+
+
+
 
 
 
