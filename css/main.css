@@ -272,44 +272,6 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -396,9 +358,63 @@ input {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 600px) {
+/* -------- TABLET STYLES ------------- */
+    
+    /* ------ Header ------ */
+  
+  ul {
+    padding-top: 3em;
+  }
+  ul li {
+    display: inline;
+    margin-left: 3.5em;
+    
+    
+  }
+  
+  
+  /* ---- Promo page ----- */
+  input {
+    width: 30%;
+  }
+  
+  #submit {
+    width: 32%;
+  }
 }
+
+@media all and (min-width: 1000px) {
+    /*------------ DESKTOP STYLES ------------- */
+    
+  /* ------- Header -------- */
+    
+  ul {
+    padding-left: 8em;
+  }
+    
+  ul li {
+    padding-left: 6em;
+  }
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+    
+    
+
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
